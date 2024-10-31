@@ -111,7 +111,7 @@
                                 {% include 'save.html' %}
                             </tr>
                                 {% endif %}
-                                {% for patient in patients %}
+                                {% for patient in Patients %}
                             <tr>
                                 {% if key8.instance.patient_id == patient.patient_id %}
                                     <td>{{ patient.patient_id }}</td>
