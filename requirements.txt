@@ -19,3 +19,5 @@ six==1.16.0
 soupsieve==2.6
 sqlparse==0.5.1
 typing_extensions==4.12.2
+Django==5.1.0
+dj-database-url==2.3.0
